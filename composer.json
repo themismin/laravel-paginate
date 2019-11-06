@@ -1,0 +1,32 @@
+{
+    "name": "themismin/laravel-paginate",
+    "keywords": [
+        "laravel"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "themismin",
+            "email": "ThemisMin@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "ThemisMin\\LaravelPaginate\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ThemisMin\\LaravelPaginate\\LaravelServiceProvider"
+            ]
+        }
+    }
+}
