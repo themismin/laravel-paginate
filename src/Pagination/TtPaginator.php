@@ -168,6 +168,7 @@ class TtPaginator extends AbstractPaginator implements Arrayable, ArrayAccess, C
             'data' => $this->items->toArray(),
             'page_size' => $this->perPage(),
             'current' => $this->currentPage(),
+            'last_page' => $this->lastPage(),
             'total' => $this->total(),
         ];
     }
